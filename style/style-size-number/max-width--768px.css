@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+    #shp_btn{
+        width: 85%;
+    }
+    .inpt-code input{
+        width: 100%;
+    }
+}

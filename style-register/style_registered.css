@@ -1,0 +1,69 @@
+:root{
+    --primary-clr:#162f48;
+    --secondary-clr:#0e2338;
+    --light_blue-clr:#32aeff;
+    --whiteClrfff: #fff;
+    --fontSize-small: 0.8rem;
+    --fontFamily-English: impact;
+    --fontFamily_Byekan: byekan;
+    --border_blue-hover: #4f8ff8;
+}
+body{
+    background-color: var(--secondary-clr);
+    direction: rtl;
+    margin: 0;
+    font-size: 16px;
+}
+@font-face {
+    font-family: byekan;
+    src: url(../font-family/byekan/pixelboy-BYekan.ttf);
+}
+a{
+    text-decoration: none;
+    color: var(--whiteClrfff);
+}
+.logo-top{
+    color: var(--whiteClrfff);
+    text-align: center;
+    font-family: var(--fontFamily-English);
+    margin: 100px 0px 10px 0px;
+}
+.bck-registered{
+    background-color: var(--primary-clr);
+    width: 25%;
+    height: 600px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bgclr-center{
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+.registershow{
+    display: inline;
+    margin: 0px 10px;
+}
+.registershow a{
+    background-color: var(--secondary-clr);
+    font-family: var(--fontFamily_Byekan);
+    padding: 10px 35px;
+    font-size: 1.3rem;
+    border: 2px solid var(--whiteClrfff);
+    border-radius: 15px;
+}
+.signinshow{
+    display: inline;
+    margin: 0px 10px;
+}
+.signinshow a{
+    background-color: var(--secondary-clr);
+    font-family: var(--fontFamily_Byekan);
+    padding: 10px 35px;
+    font-size: 1.3rem;
+    border: 2px solid var(--secondary-clr);
+    border-radius: 15px;
+}
+.signinshow a:hover{
+    border: 2px solid var(--border_blue-hover);
+}

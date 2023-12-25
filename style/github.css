@@ -1,0 +1,53 @@
+@font-face {
+    font-family: vazir;
+    src: url(../font-family/vazir-font-v18.0.0/Vazir-Bold.ttf);
+}
+*{
+    font-family: vazir;
+}
+:root{
+    --primary-clr:#162f48;
+    --secondary-clr:#0e2338;
+    --light_blue-clr:#32aeff;
+    --disabled-secondary-clr:#11283f;
+    --dark_blue-clr:#3b82f6;
+    --border_blue-hover:#4f8ff8;
+    --whiteClr:#fff;
+    --fontFamily-impact:impact;
+    --fontSize-Logo:2.5rem;
+}
+a{
+    text-decoration: none;
+    color: #45b2dd;
+}
+.icon-login{
+    text-align: center;
+    font-size: 5rem;
+}
+#formHeading{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+}
+#formHeading-shuot{
+    display: block;
+    text-align: center;
+}
+.forgot-pass{
+    color: #45b2dd;
+    transition: all 0.3s ease;
+    font-size: 0.8rem;
+}
+.forgot-pass:hover{
+    color: #507abd;
+    text-decoration: underline;
+}
+.github_box-bottom{
+    border: 1px solid #bbb;
+    padding: 20px 0px;
+    margin: 30px 0px;
+}
+.github_box-bottom span{
+    display: block;
+    text-align: center;
+}

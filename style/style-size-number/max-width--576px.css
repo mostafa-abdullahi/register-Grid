@@ -1,0 +1,8 @@
+@media (max-width: 576px) {
+    .box_signup{
+        width: 100%;
+    }
+    #shp_btn{
+        width: 70%;
+    }
+}

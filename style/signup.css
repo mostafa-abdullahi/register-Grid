@@ -1,0 +1,321 @@
+@font-face {
+    font-family: byekan;
+    src: url(../font-family/byekan/pixelboy-BYekan.ttf);
+}
+@font-face {
+    font-family: vazir;
+    src: url(../font-family/vazir-font-v18.0.0/Vazir-Bold.ttf);
+}
+@font-face {
+    font-family: titrbold;
+    src: url(../font-family/titrbold/pixelboy-BTitrBold.ttf);
+}
+
+body{
+    margin: 0px;
+    font-size: 16px;
+    background-color: #0e2338;
+
+}
+a{
+    text-decoration: none;
+}
+*{
+    direction: rtl;
+    font-family: byekan;
+    box-sizing: border-box;
+}
+:root{
+    --primary-clr:#162f48;
+    --secondary-clr:#0e2338;
+    --light_blue-clr:#32aeff;
+    --disabled-secondary-clr:#11283f;
+    --dark_blue-clr:#3b82f6;
+    --border_blue-hover:#4f8ff8;
+    --whiteClr:#fff;
+    --fontFamily-impact:impact;
+    --fontSize-Logo:2.5rem;
+}
+.container-signup{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-signup{
+    text-align: center;
+    margin: 100px 0px 0PX 0PX;
+}
+.logo-signup h2{
+    font-family: impact;
+    font-size: 2.5rem;
+    color: #fff;
+}
+.bg-signup{
+    background-color: #1b344c;
+    width: 100%;
+    min-height: 500px;
+    border-radius: 25PX;
+}
+.panel-box_signup{
+    display: inline-block;
+    padding: 40px 0px 15px 15px;
+}
+.box_signup{
+    background-color: #0e2338;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    border: 2px solid #0e2338;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#signin{
+    outline:2px solid #fff;
+}
+#Registers{
+    outline: 2px solid #fff;
+}
+.box_signup:hover{
+    outline:2px solid #507abd;
+}
+.panel-box_login{
+    display: inline-block;
+    padding: 40px 0px 15px 15px;
+}
+.sizebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#sizebar_panel{
+    padding: 0px 3px;
+}
+.Introduction-panel{
+    text-align: center;
+}
+.Introduction-panel h2{
+    color: #fff;
+    margin: 8px;
+    font-family: titrbold;
+    font-size: 1.7rem;
+}
+.Introduction-panel span{
+    color: #fff;
+}
+.panelbox-top{
+    padding: 50px 0px;
+    text-align: center;
+}
+.panel-top_item{
+    background-color: #0e2338;
+    padding: 20px 20px;
+    color: #fff;
+    margin: 0px 10px;
+    border-radius: 10px;
+    border: 2px solid #0e2338;
+}
+#panelbox-sh{
+    padding: 50px 0px;
+    text-align: center;
+}
+#panelbox-sh a{
+    background-color: #0e2338;
+    padding: 20px 107px;
+    color: #fff;
+    margin: 0px 10px;
+    border-radius: 10px;
+    border: 2px solid #0e2338;
+}
+#panelbox-sh a:hover{
+    border: 2px solid #fff;
+}
+#panelbox-sha{
+    padding: 50px 0px;
+    text-align: center;
+}
+#panelbox-sha a{
+    background-color: #0e2338;
+    padding: 20px 100px;
+    color: #fff;
+    margin: 0px 10px;
+    border-radius: 10px;
+    border: 2px solid #0e2338;
+}
+#panelbox-sha a:hover{
+    border: 2px solid #fff;
+}
+.panel-top_item:hover{
+    border: 2px solid #fff;
+}
+.panelbox-top a i{
+    font-size: 1.3rem;
+}
+.panelbox-bottom{
+    padding: 10px 0px;
+    text-align: center;
+}
+.panelbox-bottom a i{
+    font-size: 1.4rem;
+}
+.panel-top--items{
+    background-color: #0e2338;
+    padding: 20px 22px;
+    color: #fff;
+    margin: 0px 10px;
+    border-radius: 10px;
+    border: 2px solid #0e2338;
+}
+.panel-top--items:hover{
+    border:2px solid #fff;
+}
+#subset-bottom{
+    text-align: center;
+    padding: 30px 70px;
+}
+#subset-bottom span{
+    color: #fff;
+    font-size: 0.8rem;
+}
+/* ----------------------------------------------------------------- login or sign in 1-------------------- */
+#logo_login{
+    text-align: center;
+    margin: 90px 0px 0PX 0PX;
+}
+#line-box{
+    text-align: center;
+    padding: 0px 70px 0px 70px;
+}
+#line-box hr{
+    width: 100%;
+    opacity: 0.4;
+}
+#line-box span{
+    color: #fff;
+    opacity: 0.7;
+    font-size: 0.8rem;
+}
+#bg_login{
+    background-color: #1b344c;
+    width: 100%;
+    min-height: 730px;
+    border-radius: 25PX;
+}
+/* ------------------------------------------------------------ form -------------------------------------- */
+.form-container{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    z-index: 1;
+}
+.form-container .form-horizontal{
+    padding: 30px 30px 10px;
+}
+.form-container .form-horizontal:before,
+.form-container .form-horizontal:after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    transform: rotate(3deg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.form-container .form-horizontal:after{ transform: rotate(-3deg); }
+.form-container .title{
+    color: #777;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 2px;
+    margin: 0 0 20px 0;
+}
+.form-horizontal .form-group{
+    background-color: #0e2338;
+    font-size: 0;
+    margin: 0 0 15px;
+    border: 1px solid #0e2338;
+    border-radius: 15px;
+}
+.form-horizontal .input-icon{
+    color: #888;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    vertical-align: top;
+    display: inline-block;
+}
+.form-horizontal .form-control{
+    color: #fff;
+    background-color: #0e2338;
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    padding: 25px 10px;
+    box-shadow: none;
+    border: none;
+    border-radius: 15px;
+    display: inline-block;
+    transition: all 0.3s;
+    outline: 1px solid #1b344c;
+}
+.form-horizontal .form-control:focus{
+    box-shadow: none;
+    border: none;
+    outline: 1px solid #3b82f6;
+}
+.form-horizontal .form-control::placeholder{
+    color: #fff;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+.form-horizontal .btn{
+    color: #fff;
+    background: #3b82f6;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 10px 18px;
+    margin: 0 0 15px 0;
+    border: 2px solid #1b344c;
+    border-radius: 15px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.form-horizontal .btn:hover,
+.form-horizontal .btn:focus{
+    background: #1b344c;
+    color: #3b82f6;
+    letter-spacing: 2px;
+    border: 2px solid #3b82f6;
+}
+.form-horizontal .forgot-pass{
+    font-size: 12px;
+    text-align: right;
+    width: calc(100% - 105px);
+    display: inline-block;
+    vertical-align: top;
+}
+.form-horizontal .forgot-pass a,
+.form-horizontal .register a{
+    color: #45b2dd;
+    transition: all 0.3s ease;
+    font-size: 0.8rem;
+}
+.form-horizontal .forgot-pass a:hover,
+.form-horizontal .register a:hover{
+    color: #507abd;
+    text-decoration: underline;
+}
+.form-horizontal .register{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 8px;
+    border-top: 1px solid #e7e7e7;
+    display: block;
+}

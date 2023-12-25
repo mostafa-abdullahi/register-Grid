@@ -1,0 +1,15 @@
+@media (max-width: 639px) {
+    .bg-signup{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .containers{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #shp_btn{
+        width: 50%;
+    }
+}
